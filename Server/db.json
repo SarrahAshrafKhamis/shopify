@@ -1,0 +1,137 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "prod111",
+      "description": "desc11111222",
+      "price": 109,
+      "quantity": 8,
+      "image": "/images/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "prod3",
+      "description": "desc3",
+      "price": 4,
+      "quantity": 4,
+      "image": "/images/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "prod2",
+      "price": 200,
+      "quantity": 20,
+      "image": "/images/3.jpg",
+      "description": "desc2"
+    },
+    {
+      "id": 4,
+      "name": "prod2222",
+      "description": "desc2222",
+      "price": 200,
+      "quantity": 20,
+      "image": "/images/4.jpg"
+    },
+    {
+      "image": "/images/5.jpg",
+      "id": "77",
+      "name": "7777",
+      "description": "7777",
+      "price": 777,
+      "quantity": 7
+    },
+    {
+      "image": "/images/2.jpg",
+      "id": "89",
+      "name": "999",
+      "description": "999",
+      "price": 999,
+      "quantity": 99
+    },
+    {
+      "image": "/images/1.jpg",
+      "id": "8888",
+      "name": "88",
+      "description": "88",
+      "price": 88,
+      "quantity": 88
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "category1111",
+      "description": "desc121212"
+    },
+    {
+      "id": 3,
+      "name": "category1",
+      "description": "desc1"
+    },
+    {
+      "id": "7",
+      "name": "77",
+      "description": "777888"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "muhammad ashraf",
+      "age": 27,
+      "email": "muhammadashraf12345@gmail.com",
+      "password": "1234",
+      "address": "tanta",
+      "mobile": "012347639",
+      "cart": [
+        {
+          "product": {
+            "id": 2,
+            "name": "prod3",
+            "description": "desc3",
+            "price": 4,
+            "quantity": 4,
+            "image": "/images/2.jpg"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 3,
+            "name": "prod2",
+            "price": 200,
+            "quantity": 20,
+            "image": "/images/3.jpg",
+            "description": "desc2"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "image": "/images/5.jpg",
+            "id": "77",
+            "name": "7777",
+            "description": "7777",
+            "price": 777,
+            "quantity": 7
+          },
+          "quantity": 1
+        }
+      ],
+      "orders": [
+        {
+          "itemsNumber": 13,
+          "totalPrice": 1102,
+          "date": "4/8/2022",
+          "isDelivered": false
+        },
+        {
+          "itemsNumber": 3,
+          "totalPrice": 1086,
+          "date": "4/8/2022",
+          "isDelivered": false
+        }
+      ]
+    }
+  ]
+}
